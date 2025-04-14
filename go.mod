@@ -1,6 +1,7 @@
 module github.com/appleboy/gorush
 
 go 1.22.7
+toolchain go1.24.1
 
 require (
 	firebase.google.com/go/v4 v4.15.1
@@ -37,9 +38,9 @@ require (
 	github.com/tidwall/buntdb v1.3.1
 	go.opencensus.io v0.24.0
 	go.uber.org/atomic v1.11.0
-	golang.org/x/crypto v0.32.0
+	golang.org/x/crypto v0.35.0
 	golang.org/x/net v0.34.0
-	golang.org/x/sync v0.10.0
+	golang.org/x/sync v0.11.0
 	google.golang.org/grpc v1.68.0
 	google.golang.org/protobuf v1.35.2
 )
@@ -147,8 +148,8 @@ require (
 	golang.org/x/arch v0.8.0 // indirect
 	golang.org/x/exp v0.0.0-20240314144324-c7f7c6466f7f // indirect
 	golang.org/x/oauth2 v0.25.0 // indirect
-	golang.org/x/sys v0.29.0 // indirect
-	golang.org/x/text v0.21.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
 	golang.org/x/time v0.8.0 // indirect
 	google.golang.org/api v0.212.0 // indirect
 	google.golang.org/appengine/v2 v2.0.6 // indirect
